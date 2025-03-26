@@ -1,0 +1,37 @@
+Titanic Dataset Analysis & Classification
+
+Overview:
+This project performs Exploratory Data Analysis (EDA) and builds a Machine Learning Classification Model to predict Titanic survivors based on passenger information. The dataset consists of 891 records and 12 columns, containing details such as age, gender, class, fare, and survival status.
+
+Dataset Details (train.csv)
+PassengerId – Unique identifier for each passenger.
+Survived – Survival status (0 = No, 1 = Yes).
+Pclass – Ticket class (1st, 2nd, or 3rd).
+Name, Sex, Age – Passenger demographics.
+SibSp, Parch – Number of siblings/spouses and parents/children aboard.
+Ticket, Fare – Ticket number and price paid.
+Cabin – Cabin number (many missing values).
+Embarked – Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+
+Key Analysis:
+Data Cleaning & Preprocessing: Handling missing values (Age, Cabin, Embarked).
+Exploratory Data Analysis (EDA): Visualizing survival trends based on gender, class, and fare.
+Feature Engineering: Creating new variables for better model predictions.
+Machine Learning Model: Training classifiers (Logistic Regression, Decision Trees, etc.).
+Evaluation Metrics: Assessing accuracy, precision, recall, and F1-score.
+
+Features:
+Data Visualization: Using Seaborn and Matplotlib for insights.
+Feature Engineering: Creating new features from existing data.
+Model Training: Applying ML classifiers to predict survival.
+Hyperparameter Tuning: Optimizing models for better performance.
+
+Technologies Used
+Python ,Pandas, NumPy  – Data processing,Matplotlib, Seaborn – Data visualization,Scikit-Learn  – Machine learning models
+
+Project Structure:
+Titanic Dataset Analysis - Classification.ipynb – Jupyter Notebook for data analysis and modeling.
+train.csv – Training dataset with passenger details and survival labels.
+test.csv – Test dataset for predictions.
+titanic.csv – Additional Titanic dataset (if applicable).
+
