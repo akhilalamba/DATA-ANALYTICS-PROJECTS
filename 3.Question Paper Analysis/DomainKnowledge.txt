@@ -1,0 +1,33 @@
+Midterm Marks Analysis
+Overview:
+This project analyzes the midterm examination scores of students from the ALPHA section in their second semester. The dataset provides insights into student performance across six subjects, helping educators identify learning trends and areas for improvement.
+
+Dataset Details (MIDMARKS.xlsx)
+S.NO – Unique identifier for each student.
+SECTION – Confirms that all students belong to ALPHA section.
+Subjects:
+DV (Digital VLSI)
+M-II (Mathematics-II)
+PP (Programming Principles)
+BEEE (Basic Electrical and Electronics Engineering)
+FL (Formal Languages)
+FIMS (Fundamentals of Information Management Systems)
+The dataset contains numerical marks for each subject, allowing for performance evaluation and comparison.
+
+Key Insights:
+Score Distribution: Analyzing how students perform across different subjects.
+Highest & Lowest Scores: Identifying subjects where students excel or struggle.
+Trends & Correlations: Exploring how midterm marks correlate with overall performance.
+Statistical Measures: Calculating mean, median, and standard deviation to understand mark distributions.
+
+Features:
+Data Cleaning: Renaming columns and handling missing values.
+Exploratory Data Analysis (EDA): Visualizing student performance.
+Statistical Insights: Identifying high and low scoring subjects.
+Correlation Analysis: Finding relationships between different subjects.
+
+Technologies Used:Python,Pandas ,Matplotlib & Seaborn,Jupyter Notebook 
+
+Project Structure:
+MIDMARKS.ipynb – Jupyter Notebook for analysis.
+MIDMARKS.xlsx – Excel dataset containing midterm marks.
