@@ -1,0 +1,24 @@
+Class Marks Analysis:
+
+Overview:This project analyzes student exam performance using a dataset containing 86 records and 12 columns. It helps identify trends in student scores and highlights which questions were easier or more challenging based on score distribution.
+
+Dataset Details (class_marks.csv)
+Total: The overall score obtained by each student.
+Q1aM4 to Q6bM6: Marks obtained in specific question parts, with varying maximum scores.
+The dataset contains missing values in several columns, indicating that not all students attempted every question.
+
+Key Insights:
+Q2 was the easiest question, as most students scored full marks.
+Some questions had more than 25 students scoring full marks, making them relatively easier.
+A significant number of students scored above 6 marks in certain questions.
+
+Features:
+Data Cleaning: Handling missing values using Pandas.
+Exploratory Data Analysis (EDA): Understanding student performance trends.
+Visualization: Insights into score distributions.
+
+Technologies Used:Python,Pandas ,Jupyter Notebook 
+
+Project Structure:
+ClassMarks.ipynb - Jupyter Notebook for analysis.
+class_marks.csv - The dataset used for analysis.
